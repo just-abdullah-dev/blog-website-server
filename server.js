@@ -15,7 +15,7 @@ const commentRoutes = require('./routes/commentRoutes');
 connectDB();
 const PORT = process.env.PORT;
 const app = express();
-app.use(cors())
+app.use(cors());
 // app.use(cors({
 //     origin: ['https://blog-website-server-seven.vercel.app/'],
 //     methods: ["POST", "PUT", "DELETE", "GET"],
